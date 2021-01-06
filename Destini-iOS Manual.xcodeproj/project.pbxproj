@@ -13,6 +13,8 @@
 		1812026E25A51F9800CB8E1E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1812026C25A51F9800CB8E1E /* Main.storyboard */; };
 		1812027025A51F9900CB8E1E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1812026F25A51F9900CB8E1E /* Assets.xcassets */; };
 		1812027325A51F9900CB8E1E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1812027125A51F9900CB8E1E /* LaunchScreen.storyboard */; };
+		1871592725A54AB300CDC08C /* Story.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1871592625A54AB300CDC08C /* Story.swift */; };
+		1871592B25A54C9400CDC08C /* storyLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1871592A25A54C9400CDC08C /* storyLogic.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		1812026F25A51F9900CB8E1E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1812027225A51F9900CB8E1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1812027425A51F9900CB8E1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1871592625A54AB300CDC08C /* Story.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Story.swift; sourceTree = "<group>"; };
+		1871592A25A54C9400CDC08C /* storyLogic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = storyLogic.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,13 +62,39 @@
 			children = (
 				1812026625A51F9800CB8E1E /* AppDelegate.swift */,
 				1812026825A51F9800CB8E1E /* SceneDelegate.swift */,
-				1812026A25A51F9800CB8E1E /* ViewController.swift */,
-				1812026C25A51F9800CB8E1E /* Main.storyboard */,
+				1871592525A54A9F00CDC08C /* Model */,
+				1871592225A5489100CDC08C /* View */,
+				1871592325A5489D00CDC08C /* Controller */,
 				1812026F25A51F9900CB8E1E /* Assets.xcassets */,
 				1812027125A51F9900CB8E1E /* LaunchScreen.storyboard */,
 				1812027425A51F9900CB8E1E /* Info.plist */,
 			);
 			path = "Destini-iOS Manual";
+			sourceTree = "<group>";
+		};
+		1871592225A5489100CDC08C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1812026C25A51F9800CB8E1E /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1871592325A5489D00CDC08C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1812026A25A51F9800CB8E1E /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1871592525A54A9F00CDC08C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1871592625A54AB300CDC08C /* Story.swift */,
+				1871592A25A54C9400CDC08C /* storyLogic.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,6 +170,8 @@
 				1812026B25A51F9800CB8E1E /* ViewController.swift in Sources */,
 				1812026725A51F9800CB8E1E /* AppDelegate.swift in Sources */,
 				1812026925A51F9800CB8E1E /* SceneDelegate.swift in Sources */,
+				1871592B25A54C9400CDC08C /* storyLogic.swift in Sources */,
+				1871592725A54AB300CDC08C /* Story.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
